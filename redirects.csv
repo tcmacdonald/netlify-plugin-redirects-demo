@@ -1,1 +1,4 @@
 /ample,${env:AMPLE_URL},301!
+/staging-only,https://www.helloample.com,301!,staging
+/members-only/*,/members-only/:splat,200! Role=user
+/profile,/profile,200! Role=user
