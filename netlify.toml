@@ -2,8 +2,7 @@
   command = "echo \"Hello world!\""
 
 [[plugins]]
-  package = "./_plugins/netlify-plugin-redirects"
-  [plugins.inputs]
-    source = "./redirects.csv"
-    destination = "./_redirects"
-    defaultBranch = "master"
+  package = "@helloample/netlify-plugin-redirects"
+
+[context.master.environment]
+  AMPLE_URL = "https://ample.co"

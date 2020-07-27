@@ -1,3 +1,2 @@
-/ample,https://ample.co,301!
-/google,${env:GOOGLE_URL},301
+/ample,${env:AMPLE_URL},301!
 /*,https://ample.co/:splat,200
