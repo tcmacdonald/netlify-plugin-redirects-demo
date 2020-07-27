@@ -1,2 +1,1 @@
 /ample,${env:AMPLE_URL},301!
-/*,https://ample.co/:splat,200
